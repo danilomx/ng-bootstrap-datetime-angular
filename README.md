@@ -17,7 +17,7 @@ Description
 
 This picker is responsive design, so feel free to try it in your desktops, tablets and mobile devices.
 
- <img width="200"
+ <img width="400"
     src="https://raw.githubusercontent.com/danilomx/ng-bootstrap-datetime-angular/master/src/assets/example.png">
     
 ## Dependencies
