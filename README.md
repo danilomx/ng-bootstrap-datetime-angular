@@ -1,8 +1,7 @@
 # ng-bootstrap-datetime-angular
 
 
-  <img 
-    src="https://raw.githubusercontent.com/danilomx/ng-bootstrap-datetime-angular/master/src/assets/example.png">
+ 
 
 
 # Angular Date Time Picker
@@ -18,6 +17,9 @@ Description
 
 This picker is responsive design, so feel free to try it in your desktops, tablets and mobile devices.
 
+ <img width="200"
+    src="https://raw.githubusercontent.com/danilomx/ng-bootstrap-datetime-angular/master/src/assets/example.png">
+    
 ## Dependencies
 [@ng-bootstrap/ng-bootstrap ^1.0.0](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)
 
