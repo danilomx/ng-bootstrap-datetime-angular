@@ -1,0 +1,23 @@
+{
+  "name": "ng-bootstrap-datetime-angular",
+  "version": "0.1.25",
+  "description": "Angular Bootstrap Date Time Picker",
+  "keywords": [
+    "Angular",
+    "datepicker",
+    "date picker",
+    "timepicker",
+    "time picker",
+    "ng-bootstrap"
+  ],
+  "author": "Danilo Meneses <danilo1233@Hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danilomx/ng-bootstrap-datetime-angular"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  }
+}

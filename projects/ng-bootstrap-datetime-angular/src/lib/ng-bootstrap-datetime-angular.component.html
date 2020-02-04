@@ -1,0 +1,46 @@
+<div class="input-group mr-2">
+  <input
+    [placeholder]="placeholder"
+    [ngClass]="ngControl?.valid ? 'ng-valid' : 'ng-invalid'"
+    class="form-control"
+    (blur)="inputBlur($event)"
+    [ngModel]="date | date: inputDatetimeFormat"
+    (change)="onInputChange($event)"
+    [disabled]="disabled"
+  />
+
+  <div class="input-group-append">
+    <button
+      class="btn btn-outline-secondary"
+      [ngbPopover]="calendarContent"
+      [disabled]="disabled"
+      type="button"
+    >
+      <i class="fa fa-calendar"></i>
+    </button>
+  </div>
+</div>
+
+<ng-template #calendarContent>
+  <div>
+    <div>
+      <ngb-datepicker
+        #dp
+        name="datepicker"
+        [(ngModel)]="dateStruct"
+        (ngModelChange)="onDateChange($event)"
+      ></ngb-datepicker>
+      <ngb-timepicker
+        meridian="true"
+        [seconds]="false"
+        #tp
+        name="timepicker"
+        [(ngModel)]="timeStruct"
+        (ngModelChange)="onTimeChange($event)"
+        [seconds]="seconds"
+        [hourStep]="hourStep"
+        [minuteStep]="minuteStep"
+      ></ngb-timepicker>
+    </div>
+  </div>
+</ng-template>
