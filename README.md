@@ -1,5 +1,10 @@
 # ng-bootstrap-datetime-angular
 
+
+  <img 
+    src="https://raw.githubusercontent.com/danilomx/ng-bootstrap-datetime-angular/master/src/assets/example.png">
+
+
 # Angular Date Time Picker
 
 [![npm](https://img.shields.io/npm/v/ng-bootstrap-datetime-angular.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/ng-bootstrap-datetime-angular)
