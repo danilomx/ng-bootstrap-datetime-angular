@@ -39,7 +39,7 @@ const moment = moment_;
   ]
 })
 export class NgBootstrapDatetimeAngularComponent  implements ControlValueAccessor, OnInit, AfterViewInit {
- 
+
   @Input()
   inputDatetimeFormat = 'd/M/yyyy H:mm:ss';
   @Input()
@@ -56,10 +56,10 @@ export class NgBootstrapDatetimeAngularComponent  implements ControlValueAccesso
   @Input()
   disabled = false;
 
-  @ViewChild(NgbDatepicker, null)
+  @ViewChild(NgbDatepicker, { static: false })
   private dp: NgbDatepicker;
 
-  @ViewChild(NgbPopover, null)
+  @ViewChild(NgbPopover, { static: false })
   private popover: NgbPopover;
 
   private onTouched: () => void = noop;
@@ -70,7 +70,7 @@ export class NgBootstrapDatetimeAngularComponent  implements ControlValueAccesso
   dateStruct: NgbDateStruct;
   timeStruct: NgbTimeStruct;
   date: Date;
-  
+
   constructor(private config: NgbPopoverConfig, private inj: Injector) {
     config.autoClose = 'outside';
     config.placement = 'auto';

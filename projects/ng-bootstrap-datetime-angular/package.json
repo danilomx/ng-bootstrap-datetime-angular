@@ -1,6 +1,6 @@
 {
-  "name": "ng-bootstrap-datetime-angular",
-  "version": "0.1.25",
+  "name": "@joffarex/ng-bootstrap-datetime-angular",
+  "version": "0.1.27",
   "description": "Angular Bootstrap Date Time Picker",
   "keywords": [
     "Angular",
@@ -14,10 +14,31 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danilomx/ng-bootstrap-datetime-angular"
+    "url": "git+https://github.com/danilomx/ng-bootstrap-datetime-angular.git"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/ng-bootstrap-datetime-angular.umd.js",
+  "module": "fesm2015/ng-bootstrap-datetime-angular.js",
+  "es2015": "fesm2015/ng-bootstrap-datetime-angular.js",
+  "esm2015": "esm2015/ng-bootstrap-datetime-angular.js",
+  "fesm2015": "fesm2015/ng-bootstrap-datetime-angular.js",
+  "typings": "ng-bootstrap-datetime-angular.d.ts",
+  "metadata": "ng-bootstrap-datetime-angular.metadata.json",
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/danilomx/ng-bootstrap-datetime-angular/issues"
+  },
+  "homepage": "https://github.com/danilomx/ng-bootstrap-datetime-angular#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
